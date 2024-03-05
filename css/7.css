@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+.ani {width: 22%; margin: 1%; height: 512px;}
+@media screen and (min-width:1024px) and (max-width:1920px){
+    .ani{width: 22%; margin: 1%;}}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .ani{width: 47%; margin: 1%;}}
+@media screen and (min-width:480px) and (max-width:767px){
+    .ani{width: 98%; margin: 1%;}}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{background: orange; width: 500px; height: 500px; position: absolute; left: 0; top: 0;}
+        #box2{background: pink; width: 900px; height: 500px; position: absolute; left: 21.6%; top: 0;}
+        #box3{background: cyan; width: 500px; height: 500px; position: absolute; left: 60.5%; top: 0;}
+        @media all and (max-width:1010px){
+            #box3{left: 0; top: 500px; width: 1000px;}}
+        @media all and (max-width: 760px) {
+            #box1{width: 100%; left: 0; top: 0px;}
+            #box2{width: 100%; left: 0; top: 500px;}
+            #box3{width: 100%; left: 0; top: 1000px;}}
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+</body>
+</html>
